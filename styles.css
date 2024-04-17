@@ -72,7 +72,7 @@ nav li a:hover {
   align-items: center;
 }
 
-#banner section {
+#banner section.mission {
   background-color: black;
   color: white;
   text-align: center;
@@ -88,25 +88,72 @@ nav li a:hover {
   margin: auto;
 }
 
-#teaOfTheMonth .titles {
+#teaOfTheMonth section.titles {
   text-align: center;
   padding: 10px;
 }
 
-#teaofTheMonth .teaTypes {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: wrap;
+#teaofTheMonth section.teaTypes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .teaTypes img {
-  height: 200px;
-  width: 300px;
+  max-height: 200px;
+  max-width: 300px;
   margin: 10px 0;
 }
 
-#teaOfTheMonth .type{
-    text-align: center;
-    flex: 1 1 333px;
+#teaOfTheMonth div.type {
+  text-align: center;
+  flex: 1 1 300px;
+}
+
+#locations{
+  background-image: url("./images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 1200px;
+  min-height: 700px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#locations h2{
+  z-index: 1;
+}
+
+#showLocations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 1200px;
+  min-height: 700px;
+}
+
+#showLocations section.location {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.9;
+  width: 300px;
+  line-height: 50px;
+  margin: 30px;
+}
+
+#contact{
+  text-align: center;
+  line-height: 40px;
+  margin: 20px;
+  height: 200px;
+}
+
+#footer{
+  text-align: right;
+  font-size: 12px;
 }
