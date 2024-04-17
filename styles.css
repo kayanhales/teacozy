@@ -23,28 +23,32 @@ body {
 }
 
 header {
-  position: fixed;
   background-color: black;
-  height: 68px;
   border-bottom: 1px solid seashell;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 68px;
+  top: 0;
+  right: 0;
+  position: sticky;
 }
 
 #logo {
-  background-image: url("/images/img-tea-cozy-logo.png");
+  background-image: url("./images/img-tea-cozy-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 50px;
 }
 
 nav {
+  text-align: right;
+  margin-right: 10px;
 }
 
 nav li {
   display: inline;
+  padding: 10px;
 }
 
 nav li a,
@@ -57,7 +61,7 @@ nav li a:hover {
 }
 
 #banner {
-  background-image: url("/images/img-mission-background.jpg");
+  background-image: url("./images/img-mission-background.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -75,6 +79,34 @@ nav li a:hover {
   padding: 10px;
 }
 
-#banner h2{
-    margin-bottom: 10px;
+#banner h2 {
+  margin-bottom: 10px;
+}
+
+#teaOfTheMonth {
+  width: 1000px;
+  margin: auto;
+}
+
+#teaOfTheMonth .titles {
+  text-align: center;
+  padding: 10px;
+}
+
+#teaofTheMonth .teaTypes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.teaTypes img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 0;
+}
+
+#teaOfTheMonth .type{
+    text-align: center;
+    flex: 1 1 333px;
 }
