@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body,
+html {
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 10px;
+}
+
+header {
+  position: fixed;
+  background-color: black;
+  height: 68px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  background-image: url("/images/img-tea-cozy-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+}
+
+nav {
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a,
+nav li a:visited {
+  color: seashell;
+}
+
+nav li a:hover {
+  opacity: 0.2;
+}
+
+#banner {
+  background-image: url("/images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 1200px;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#banner h2{
+    margin-bottom: 10px;
+}
